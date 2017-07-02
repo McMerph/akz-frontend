@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+/*= ./bootstrap.css */
+/*= ../../../node_modules/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.css */
+/*= ./icomoon.css */
+/*= ./icons.css */
+
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* edit/new */
+#rut-entries-array-edit-table tr td, #sleepers-gaps-array-edit-table tr td {
+    vertical-align : middle;
+}
+
+#rut-entries-array-edit-table tbody tr td:nth-child(2), #sleepers-gaps-array-edit-table tbody tr td:nth-child(2) {
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* passport */
+#rut-control-table thead th, #sleepers-gaps-control-table thead th, #resistance-measurement-control-table thead th, #other-properties-table thead th {
+    text-align :center;
+}
+
+#rut-control-table tbody tr td:nth-child(2), #sleepers-gaps-control-table tbody tr td:nth-child(2), #resistance-measurement-control-table tbody tr:first-child td:nth-child(2) {
+    width: 20%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#resistance-measurement-control-table tbody tr:first-child td:nth-child(3) {
+    width: 5%;
+    text-align: right;
+    white-space: nowrap;
+}
+
+#other-properties-table tbody tr td:last-child, #rut-entries-table tbody tr td:last-child, #sleepers-gaps-table tbody tr td:last-child, #resistance-measurement-control-table tbody tr:not(:first-child) td:nth-child(2) {
+    text-align: right;
+    white-space: nowrap;
+}

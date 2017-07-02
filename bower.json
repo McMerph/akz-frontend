@@ -1,0 +1,14 @@
+{
+  "name": "akz-web-ui",
+  "version": "1.0.0",
+  "authors": [
+    "Aleksandr Sidorenko <mcmerph@gmail.com>"
+  ],
+  "description": "Web user-interface for jointed track part autocontrol",
+  "moduleType": [
+    "globals"
+  ],
+  "devDependencies": {
+    "classList.js": "https://github.com/eligrey/classList.js.git#^1.1.20150312"
+  }
+}
