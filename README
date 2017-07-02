@@ -1,0 +1,4 @@
+To start:
+	bower i
+	npm i
+	gulp
